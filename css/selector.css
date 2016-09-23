@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  width: 1920px;
+}
+.top .first {
+  margin: 20px auto;
+  width: 1190px;
+  background-color: #f5f5f5;
+  height: 41px;
+  border: 1px solid #e8e8e8;
+}
+.top .first .firstleft {
+  float: left;
+}
+.top .first ul {
+  list-style-type: none;
+  float: left;
+  font-family: microsoft yahei;
+  line-height: 100%;
+}
+.top .first ul li {
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: hidden;
+  padding: 15px 20px;
+}
+.top .first ul li:hover {
+  color: #ffa500;
+}
+.top .first .ipt {
+  float: left;
+}
+.top .first .ipt input {
+  background-color: #fff;
+  width: 56px;
+  height: 21px;
+  margin-top: 10px;
+}
+.top .first .lefttext {
+  float: left;
+  width: 50px;
+  line-height: 41px;
+  padding-left: 90px;
+  font-family: microsoft yahei;
+}
+.top .first .page_number {
+  float: right;
+  width: 116px;
+  height: 39px;
+  border-left: solid #e8e8e8;
+  text-align: center;
+  line-height: 41px;
+}
+.box {
+  width: 1210px;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+.box .bor {
+  border: 1px solid #e8e8e8;
+  width: 220px;
+  height: 354px;
+  font-family: microsoft yahei;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.box .bor:hover {
+  border: 1px solid #c87124;
+}
+.box .bor .href {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 14px;
+}
+.box .bor .baoyou {
+  font-size: 10px;
+  padding: 2px 3px;
+  background-color: #f40;
+  color: #fff;
+}
+.box .bor .price {
+  font-weight: bold;
+  padding: 6px 9px;
+}
+.box .bor .name {
+  width: 200px;
+  display: block;
+  margin: 6px 9px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.box .bor .sold {
+  font-size: 12px;
+  color: #9a9a9a;
+  padding: 6px 9px;
+}
+.box .bor .owner {
+  font-size: 12px;
+  color: #9a9a9a;
+  padding: 6px 9px;
+}
+.box .bor .location {
+  float: right;
+  font-size: 12px;
+  color: #9a9a9a;
+  padding: 6px 9px;
+}
+.box .bor .iconleft {
+  display: block;
+  width: 15px;
+  height: 16px;
+  background-image: url("../img/a1.png");
+  margin: 6px 9px;
+  float: left;
+}
+.box .bor .iconright {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/a2.png");
+  margin: 6px 0px 0px 190px;
+}
